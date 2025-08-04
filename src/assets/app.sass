@@ -1,0 +1,215 @@
+//VAR
+$Helvetica: Helvetica, sans-serif
+//FONT SIZES
+$s16: 1rem
+$s18: 1.125rem
+$s20: 1.25rem
+$s24: 1.5rem
+$s28: 1.75rem
+$s32: 2rem
+$s36: 2.25rem
+$s40: 2.5rem
+$s60: 3.75rem
+
+$shadow-1: rgba(0, 0, 0, 0.1) 0px 4px 12px
+$shadow-2: rgba(0, 0, 0, 0.16) 0px 1px 4px
+//COLORS
+$dark-color: #292929
+$black-1: #3d3d3d
+$black-2: #464646
+$black-3: #656565
+$black-4: #989898
+$bg-color: #f5f5f7
+$bg-color-2: #f1f3fb
+$white-color: #fff
+$blue-color: #0066cc
+$body-color: #3a3a3d
+
+$main-color: #90CAF9
+$secondary-color: #A5D6A7
+$neutral-color: #EEEEEE
+$highlight: #FFAB91
+$bone:#F9F6EE
+//HTML
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video
+    border: 0
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    vertical-align: baseline
+html, body
+    font-family: $Helvetica
+    font-size: $s16
+    font-weight: 600
+    scrollbar-width: thin
+    color: $dark-color
+    background-color: $bg-color
+
+h1, h2, h3, h4, h5, h6
+    color: $dark-color
+main
+    padding-top: 40px
+    padding-bottom: 60px
+.main-section
+    height: 100vh
+    background: linear-gradient(10deg,rgba(0, 51, 127, 0.80),rgba(0, 115, 197, 0.65)),url(/img/bg.webp) no-repeat bottom / auto 200%
+    width: 100%
+    animation: gradient-animation 80s linear infinite
+
+@keyframes gradient-animation
+    0%
+        background-position: 0% 10%
+        background-size: auto 200%
+
+    50%
+        background-position: 0% 90%
+        background-size: auto 250%
+
+    100%
+        background-position: 0% 10%
+        background-size: auto 200%
+.flex
+    display: flex
+.flex-c
+    display: flex
+    flex-direction: column
+.ai-c
+    align-items: center
+.jc-c
+    justify-content: center
+.gap-20
+    gap: 20px
+.gap-40
+    gap: 40px
+.txt-jc
+    text-align: justify
+    text-align-last: center
+.txt-c
+    text-align: center
+.cont-10
+    width: 100%
+.cont-8
+    width: 80%
+.pt-30
+    padding-top: 30px
+.color-w
+    color: $white-color
+.color-bone
+    color: $bone
+.color-b1
+    color: $black-1
+.color-b2
+    color: $black-2
+.btn-1
+    font-family: $Helvetica
+    font-size: 18px
+    font-weight: 600
+    text-align: center
+    background-color: #4cced0
+    color: #000
+    text-decoration: none
+    border: none
+    padding: 10px 20px
+    border-radius: 10px
+    transition: all .2s linear
+.btn-1:hover
+    background-color: #93deda
+.voluntierModal
+    display: flex
+    justify-content: center
+    align-items: center
+    position: fixed
+    z-index: 3
+    width: 100%
+    height: 100%
+    background: rgba(255, 255, 255, 0.15)
+    -webkit-backdrop-filter: blur(10px)
+    backdrop-filter: blur(6px)
+.modalContent
+    background-color: rgba(38, 38, 38, .9)
+    color: $bone
+    justify-content: center
+    align-items: center
+    width: 80%
+    padding: 30px 20px
+    border-radius: 10px
