@@ -120,7 +120,7 @@ video
 html, body
     font-family: $Helvetica
     font-size: $s16
-    font-weight: 600
+    font-weight: 500
     scrollbar-width: thin
     color: $dark-color
     background-color: $bg-color
@@ -128,8 +128,13 @@ html, body
 h1, h2, h3, h4, h5, h6
     color: $dark-color
 main
-    padding-top: 40px
-    padding-bottom: 60px
+    padding: 40px 0
+footer
+    padding: 40px 0
+    background-color: #1f1f1f
+    color: $white-color
+    a
+        color: #4cced0
 .main-section
     height: 100vh
     background: linear-gradient(10deg,rgba(0, 51, 127, 0.80),rgba(0, 115, 197, 0.65)),url(/img/bg.webp) no-repeat bottom / auto 200%
@@ -157,6 +162,8 @@ main
     align-items: center
 .jc-c
     justify-content: center
+.gap-10
+    gap: 10px
 .gap-20
     gap: 20px
 .gap-40
@@ -172,6 +179,8 @@ main
     width: 80%
 .pt-30
     padding-top: 30px
+.pv-20
+    padding: 20px 0
 .color-w
     color: $white-color
 .color-bone
@@ -180,6 +189,10 @@ main
     color: $black-1
 .color-b2
     color: $black-2
+.color-hl, strong
+    color: #0060c1  !important
+.fw-6
+    font-weight: 600
 .btn-1
     font-family: $Helvetica
     font-size: 18px
