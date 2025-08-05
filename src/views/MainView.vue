@@ -4,7 +4,7 @@
     </div>
     <header class="main-section flex-c ai-c jc-c cont-10">
         <section class="flex-c ai-c gap-20 cont-8">
-            <p style="color: rgb(255, 251, 231);" class="txt-c fw-6"><span>MD/PhD Jorge Luis Calderón García</span></br>te invita a</p>
+            <p style="color: rgb(255, 251, 231);" class="txt-c fw-6"><span>MD/PhD Jorge Luis Calderón García</span><br>te invita a</p>
             <h1 class="txt-c color-w"> <span>Únete a la Ciencia:</span><br> Explora el Cerebro</h1>
             <p class="txt-jc fw-6" style="color: #000;">Ayúdanos a entender cómo el cerebro procesa los pulsos
                 binaurales
