@@ -4,7 +4,8 @@
     </div>
     <header class="main-section flex-c ai-c jc-c cont-10">
         <section class="flex-c ai-c gap-20 cont-8">
-            <p style="color: rgb(255, 251, 231);" class="txt-c fw-6"><span>MD/PhD Jorge Luis Calderón García</span><br>te invita a</p>
+            <p style="color: rgb(255, 251, 231);" class="txt-c fw-6"><span>MD/PhD Jorge Luis Calderón
+                    García</span><br>te invita a</p>
             <h1 class="txt-c color-w"> <span>Únete a la Ciencia:</span><br> Explora el Cerebro</h1>
             <p class="txt-jc fw-6" style="color: #000;">Ayúdanos a entender cómo el cerebro procesa los pulsos
                 binaurales
@@ -51,7 +52,7 @@
                     participación o el paper
                     del estudio.
                 </p>
-                
+
                 <img src="/img/2.jpeg" alt="img">
             </article>
 
@@ -75,9 +76,26 @@
         </section>
     </main>
     <footer class="flex-c ai-c">
-        <h4 class="color-bone">Sitio Elaborado por</h4>
-        <h3 class="color-bone" style="margin-bottom: 10px;">Yohary Diaz Jimenez</h3>
-        <a href="https://resume-yohary-diaz.vercel.app/" target="_blank">Más Información</a>
+        <section class="flex-c ai-c gap-20 cont-8">
+
+
+            <div>
+                <h4 class="color-bone txt-c">Encargados del Proyecto</h4>
+                <h3 class="color-bone txt-c">MD/PhD Jorge Luis Calderón García</h3>
+                <h3 class="color-bone txt-c">&</h3>
+                <h3 class="color-bone txt-c">MD/PhD Jeffherson Solis Ortega</h3>
+            </div>
+            <div>
+                <h4 class="color-bone txt-c">Titular de Laboratorio</h4>
+                <h3 class="color-bone txt-c">Dr. Elías Manjarrez López</h3>
+
+            </div>
+            <div>
+                <h4 class="color-bone txt-c">Sitio Elaborado por</h4>
+                <a class="txt-c" href="https://resume-yohary-diaz.vercel.app/" target="_blank">Yohary Diaz Jimenez</a>
+            </div>
+
+        </section>
     </footer>
 </template>
 <script setup>
